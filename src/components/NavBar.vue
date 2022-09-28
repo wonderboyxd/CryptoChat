@@ -2,14 +2,14 @@
     <div class="content">
         <div class="nav-bar">
             <ul class="nav__list">
-                <li class="list__item logo"><a class="item__link" href="#">Crypto<span class="main-color">Chat</span></a></li>
-                <li class="list__item"><a class="item__link" href="#">О проекте</a></li>
+                <li class="list__item"><a class="item__link-logo" href="#">Crypto<span class="main-color">Chat</span></a></li>
+                <li class="list__item"><a class="item__link-colored" href="#">О проекте</a></li>
                 <li class="list__item"><a class="item__link" href="#">Обучение</a></li>
                 <li class="list__item"><a class="item__link" href="#">FAQ</a></li>
                 <li class="list__item"><a class="item__link" href="#">Контакты</a></li>
             </ul>
             <BtnConnect/>
-            <BtnLogon/>
+            <BtnLogin/>
         </div>
     </div>
 </template>
@@ -17,48 +17,71 @@
 <script>
 
 import BtnConnect from '@/components/BtnConnect.vue'
-import BtnLogon from '@/components/BtnLogon.vue'
+import BtnLogin from '@/components/BtnLogin.vue'
 
 export default {
     components: {
         BtnConnect,
-        BtnLogon
+        BtnLogin
     }
 }
 </script>
 
-<style>
+<style scoped>
+@font-face {
+    font-family: 'Mulish';
+    src: url('@/assets/fonts/Mulish-Regular.ttf');
+}
 
 .content{
-    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    margin: 18px 0 80px 0;
+    background: linear-gradient(180deg, rgba(58, 34, 127, 0.2) 0%, rgba(41, 17, 92, 0.2) 100%), #190050;
 }
 .nav-bar{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .main-color{
-    color: blue;
+    color: #00C1C1;
 }
+
 .nav__list{
     padding: 0;
-    margin-top: 18px;
-    margin-bottom: 0px;
-   
+    font-family: 'Mulish'; 
 }
 .list__item{
+    text-align: center;
     display: inline;
     list-style: none;
     text-align: center;
     margin-right: 24px;
+    font-weight: 700;
 }
+
 .list__item:first-child{
     margin-right: 43px;
+    font-size: 22px;
+    font-weight: 800;
+    
 }
 .list__item:last-child{
     margin-right: 253px;
 }
+
 .item__link{
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.72);
+}
+.item__link-logo{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.item__link-colored{
+    text-decoration: none;
+    color: #00C1C1;
 }
 </style>
