@@ -46,31 +46,30 @@
           </div>
           <div class="info-block__text">
             <h3>DEX-решение</h3>
-          <p>Площадка выдерживает<br>многомиллионную аудиторию за<br>счет отсутствия какой-либо<br>серверной части</p>
+          <p>Площадка выдерживает<br>многомиллионную аудиторию<br>за счет отсутствия какой-либо<br>серверной части</p>
           </div>
         </div>
       </div>
     </div>
     <div class="section__video">
       <div class="video__img">
-        <img class="video__image" src="@/assets/img/Rectangle1.png" alt="Изображение">
-        <img class="video__play" src="@/assets/img/FramePlay.png" alt="">
+        <iframe width="650" height="350" src="https://www.youtube.com/embed/i5kUQl6hvoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="video__text">
         <h3>Посмотри обучающее<br>видео</h3>
         <ul class="video__text-list">
-          <ol class="text-list__item">Этап 1. Тут расписан первый этап</ol>
-          <ol class="text-list__item">Этап 2. Тут расписан первый этап</ol>
-          <ol class="text-list__item">Этап 3. Тут расписан первый этап</ol>
-          <ol class="text-list__item">Этап 4. Тут расписан первый этап</ol>
-          <ol class="text-list__item">Этап 5. Тут расписан первый этап</ol>
+          <li class="text-list__item">Этап 1. Тут расписан первый этап</li>
+          <li class="text-list__item">Этап 2. Тут расписан первый этап</li>
+          <li class="text-list__item">Этап 3. Тут расписан первый этап</li>
+          <li class="text-list__item">Этап 4. Тут расписан первый этап</li>
+          <li class="text-list__item">Этап 5. Тут расписан первый этап</li>
         </ul>
       </div>
     </div>
     <div class="section__mechanics">
       
         <div class="mechanics__left-wrapper">
-          <h1>Игровая механика покупки и<br> продажи смайликов, аватаров<br>и прочих NFT-объектов в чате</h1>
+          <h2>Игровая механика покупки и<br> продажи смайликов, аватаров<br>и прочих NFT-объектов в чате</h2>
           <p>Какой-то уточняющий текст про покупку и продажу<br>сайликов/аваторов и прочего-прочего</p>
           <div class="mechanics__left-wrapper-button">
             <BtnJoinchat />
@@ -89,7 +88,7 @@
         <h2>Ваш заработок на сборе<br>комиссий с сообщений<br>пользователей!</h2>
         <p>Какой-то уточняющий текст про заработок<br>от крипточата.</p>
         <div class="rigth_wrapper__text">
-          <h3>300 M+</h3>
+          <h4>300 M+</h4>
           <p>Пользователей Blockchain-<br>технолгии на 2022г</p>
         </div>
       </div>
@@ -98,7 +97,6 @@
       <h2>Остались вопросы?</h2>
     </div>
     <AccordionList/>
-
     <div class="section__last_block">
       <div class="last_block__text">
         <h2>Готовы вывести своё<br>сообщество на новый уровень?<br>Начните с <span class="main-color">CryptoChat</span></h2>
@@ -113,11 +111,11 @@
 
 import NavBar from '@/components/NavBar.vue'
 import BtnOpenchat from '@/components/BtnChatopen.vue'
-import BtnWatchvideo from '@/components/BtnWatchvideo.vue'
 import BtnJoinchat from '@/components/BtnChatjoin.vue'
 import AccordionList from '@/components/AccordionList.vue'
 import BtnConnectcryptochat from '@/components/BtnConnectcryptochat.vue'
 import FooterBlock from '@/components/FooterBlock.vue'
+import BtnWatchvideo from '@/components/BtnWatchvideo.vue'
 
 export default {
   name: 'App',

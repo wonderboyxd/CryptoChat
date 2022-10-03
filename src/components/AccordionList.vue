@@ -1,20 +1,20 @@
 <template>
     <div class="accordion__list">
-        <button @click="show = !show" class="accordion">Вопрос 1</button>
+        <div @click="open" class="accordion">Вопрос 1</div>
         <div class="panel">
-            <p v-if="show">Ответ на вопрос в «аккардеоне»</p>
+            <p v-if="show == false ">Ответ на вопрос в «аккардеоне»</p>
         </div>
-        <button class="accordion">Вопрос 2</button>
+        <div @click="open" class="accordion">Вопрос 2</div>
         <div class="panel">
-            <p>Ответ на вопрос в «аккардеоне»</p>
+            <p v-if="show == false">Ответ на вопрос в «аккардеоне»</p>
         </div>
-        <button class="accordion">Вопрос 3</button>
+        <div @click="open" class="accordion">Вопрос 3</div>
         <div class="panel">
-            <p>Ответ на вопрос в «аккардеоне»</p>
+            <p v-if="show == false">Ответ на вопрос в «аккардеоне»</p>
         </div>
-        <button class="accordion">Вопрос 4</button>
+        <div @click="open" class="accordion">Вопрос 4</div>
         <div class="panel">
-            <p>Ответ на вопрос в «аккардеоне»</p>
+            <p v-if="show == false">Ответ на вопрос в «аккардеоне»</p>
         </div>
     </div>
 </template>
@@ -22,8 +22,19 @@
 export default {
    data() {
     return {
-        show: false
+        show: true
     }
+   },
+   methods: {
+    open: function(event){
+        this.show = !this.show
+        var matches = document.querySelectorAll('.accordion');
+          for(var i = 0; i < matches.length; i++) {
+              matches[i].classList.remove('active');
+           }
+        event.target.classList.toggle('active');
+    }
+    
    }
 }
 </script>
@@ -36,18 +47,15 @@ export default {
     margin-bottom: 96px;
 }
 .accordion{
-    width: 100%;
     padding: 30px;
     display: flex;
     justify-content: space-between;
     text-align: left;
     background: none;
-
     border: none;
     border-bottom: 1px #00C1C1 solid;
     outline: none;
     transition: 0.4s;
-
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -56,17 +64,30 @@ export default {
     color: #FFFFFF;
 }
 .accordion::after{
-    content: url(@/assets/img/arrow.png);
+    content: url(@/assets/img/arrowDown.png);
+    display: block;
 
 }
-.active, .accordion:hover{
+.accordion.active::after{
+    content: url(@/assets/img/arrowUp.png);
+    
+}
+.accordion:hover{
     background-color:rgba(109, 40, 222, 0.4);
 }
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
+
+.panel{
+    display: none;
+    padding: 0 18px;
+    background-color: rgba(109, 40, 222, 0.4);
+    color: #FFFFFF;
+    overflow: hidden;
+    
+}
+
+.accordion.active + .panel {
+    display: block ;
+    
 }
 
 </style>

@@ -3,7 +3,7 @@
         <div class="nav-bar">
             <ul class="nav__list">
                 <li class="list__item"><a class="item__link-logo" href="#">Crypto<span class="main-color">Chat</span></a></li>
-                <li class="list__item"><a class="item__link-colored" href="#">О проекте</a></li>
+                <li class="list__item"><a class="item__link" href="dsfsdf">О проекте</a></li>
                 <li class="list__item"><a class="item__link" href="#">Обучение</a></li>
                 <li class="list__item"><a class="item__link" href="#">FAQ</a></li>
                 <li class="list__item"><a class="item__link" href="#">Контакты</a></li>
@@ -80,8 +80,11 @@ export default {
     text-decoration: none;
     color: #FFFFFF;
 }
-.item__link-colored{
-    text-decoration: none;
+.item__link:active{
     color: #00C1C1;
 }
+.item__link:hover{
+    color: #00C1C1;
+}
+
 </style>

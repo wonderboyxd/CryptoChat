@@ -17,6 +17,12 @@ button{
     font-weight: 700;
     font-size: 18px;
     color: #FFFFFF;
+    transition: all 500ms;
 }
-    
+
+button:hover{
+    border: 2px #00C1C1 solid;
+    transform: translateY(-8px);
+}
+
 </style>

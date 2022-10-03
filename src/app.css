@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Mulish';
-    font-family: 'DM Sans';
-    src: url('@/assets/fonts/Mulish-Regular.ttf');
-    src: url('@/assets/fonts/DMSans-Regular.ttf')
+  font-family: 'Mulish';
+  font-family: 'DM Sans';
+  src: url('@/assets/fonts/Mulish-Regular.ttf');
+  src: url('@/assets/fonts/DMSans-Regular.ttf')
 }
 
 body{
@@ -63,6 +63,7 @@ body{
   justify-content: center ;
   align-items: center;
   margin-right: 48px;
+  font-family: 'Mulish';
 }
 .private__info-block:last-child{
   margin-right: 0px;
@@ -79,11 +80,13 @@ body{
 .info-block h3{
   font-size: 24px;
   margin: 0 0 13px 0;
+  
 }
 .info-block p{
   text-decoration: none;
   color:rgba(255, 255, 255, 0.72); ;
   font-size: 18px;
+  font-weight: 400;
 }
 
 .section__video{
@@ -100,11 +103,8 @@ body{
   margin: 46px 76px 0 0;
   position: relative;
 }
-.video__play{
-  z-index: 1;
-  position: absolute;
-  top: 30%;
-  left: 43%;
+iframe{
+  border-radius: 20px
 }
 .video__text{
   text-align: left;
@@ -121,6 +121,7 @@ body{
 .video__text-list{
   padding: 0;
   margin: 0;
+  list-style: none;
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
@@ -200,15 +201,17 @@ body{
 }
 .rigth_wrapper__text{
   display: flex;
-}
-.rigth_wrapper__text h3{
-  margin: 0 16px 0 0;
-  padding: 0;
   font-family: 'DM Sans';
   font-style: normal;
+}
+.rigth_wrapper__text h4{
+  margin: 0 16px 0 0;
+  padding: 0;
+  
   font-weight: 500;
   font-size: 42px;
   color: #00C1C1;
+  
 }
 .rigth_wrapper__text p{
   margin: 0;

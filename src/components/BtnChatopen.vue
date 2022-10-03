@@ -22,5 +22,11 @@ button{
     color: #FFFFFF;
     background: #00C1C1;
     border-radius: 50px;
+    transition: all 500ms;
+}
+
+button:hover{
+    border: 2px #00C1C1 solid;
+    transform: translateY(-8px);
 }
 </style>

@@ -17,7 +17,11 @@ button{
     border-radius: 50px;
     background: none;
     font-family: 'Mulish';
-
+    transition: all 500ms;
 }
-
+button:hover{
+    border: 2px #00C1C1 solid;
+    color: white;
+    transform: translateY(-8px);
+}
 </style>

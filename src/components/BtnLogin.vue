@@ -1,6 +1,6 @@
 <template>
     <div >
-        <button class="btn__login"><img class="img__login" src="@/assets/img/login.png" alt="Изображение">Войти в чат</button>
+        <button><img src="@/assets/img/login.png" alt="Изображение">Войти в чат</button>
     </div>
 </template>
 
@@ -13,7 +13,7 @@
     src: url('@/assets/fonts/Mulish-Regular.ttf');
 }
 
-.btn__login{
+button{
     position: relative;
     width: 192px;
     height: 40px;
@@ -22,9 +22,15 @@
     color: #FFFFFF;
     background: #00C1C1;
     border-radius: 20px;
-    
+    transition: all 500ms;
 }
-.img__login{
+
+button:hover{
+    border: 2px #00C1C1 solid;
+    transform: translateY(-8px);
+}
+
+img{
     position: absolute;
     width: 24px;
     height: 24px;
