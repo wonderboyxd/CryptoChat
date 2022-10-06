@@ -27,6 +27,8 @@ body{
     color: #00C1C1;
 }
 .section__left-wrapper{
+  width: 600px;
+  margin-right: 140px;
   align-items: center;
   font-family: 'Mulish';
   font-style: normal;
@@ -256,3 +258,312 @@ iframe{
 .last_block__text h2{
   margin-bottom: 64px;
 }
+
+@media (max-width:1439px){
+  .main__section{
+    width: 1200px;
+    margin: 0 0 110px 60px;
+  }
+  
+
+  .section__private{
+    margin: 0 0 48px 30px;
+    width: 1200px
+  }
+  
+
+  .section__video{
+    width: 1200px;
+    margin-left: 25px;
+    margin-bottom: 72px;
+  }
+  
+  
+  .section__mechanics{
+    width: 1250px;
+    margin-bottom: 105px;
+    
+  }
+  
+  
+  .section__selary{
+    width: 1200px;
+    margin-bottom: 114px;
+  }
+  
+  
+  
+  .questions__title{
+    width: 1200px;
+    font-size: 40px;
+    
+    margin-bottom: 48px;
+  }
+  
+  .section__last_block{
+    
+    width: 1200px;
+    
+    
+    margin-left: 25px;
+    margin-bottom: 155px;
+    
+  }
+  .last_block__text{
+    
+    font-size: 40px;
+  }
+  .last_block__text h2{
+    margin-bottom: 64px;
+  }
+}
+@media (max-width:1023px){
+  .main__section{
+    width: 1200px;
+    margin: 0 0 110px 60px;
+  }
+  
+
+  .section__private{
+    margin: 0 0 48px 30px;
+    width: 1200px
+  }
+  
+
+  .section__video{
+    width: 1200px;
+    margin-left: 25px;
+    margin-bottom: 72px;
+  }
+  
+  
+  .section__mechanics{
+    width: 1250px;
+    margin-bottom: 105px;
+    
+  }
+  
+  
+  .section__selary{
+    width: 1200px;
+    margin-bottom: 114px;
+  }
+  
+  
+  
+  .questions__title{
+    width: 1200px;
+    font-size: 40px;
+    
+    margin-bottom: 48px;
+  }
+  
+  .section__last_block{
+    
+    width: 1200px;
+    
+    
+    margin-left: 25px;
+    margin-bottom: 155px;
+    
+  }
+  .last_block__text{
+    
+    font-size: 40px;
+  }
+  .last_block__text h2{
+    margin-bottom: 64px;
+  }
+}
+@media (max-width:767px){
+  .main__section{
+    width: 700px;
+    margin-left: 250px;
+  }
+
+  .section__left-wrapper{
+    
+    font-weight: 700;
+    font-size: 30px;  
+  }
+  .section__left-wrapper h1{
+    margin: 0 0 32px 0;
+  }
+  .section__left-wrapper p {
+    margin: 0 0 52px 0;
+    
+  }
+  .section__left-wrapper-buttons{
+    
+  }
+  
+  
+  .section__private{
+    margin: 0 0 48px 0;
+    
+  }
+  .private__title{
+   
+    font-size: 32px;
+    
+    margin-bottom: 48px;
+  }
+  .private__info-block{
+    
+    margin-right: 48px;
+    
+  }
+  .private__info-block:last-child{
+    margin-right: 0px;
+  }
+  .info-block{
+    
+    width: 400px;
+    height: 200px;
+   
+  }
+  .info-block__img{
+    margin-right: 23px;
+  }
+  .info-block h3{
+    font-size: 24px;
+    margin: 0 0 13px 0;
+    
+  }
+  .info-block p{
+    
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .section__video{
+    width: 1288px;
+    height: 442px;
+   
+    margin-left: calc((100% - 1288px)/2);
+    margin-bottom: 72px;
+  }
+  .video__img{
+    margin: 46px 76px 0 0;
+  }
+  iframe{
+    
+  }
+  .video__text{
+    
+  }
+  .video__text h3{
+   
+    font-size: 40px;
+    
+    margin-bottom: 48px;
+  }
+  .video__text-list{
+    padding: 0;
+    margin: 0;
+    
+    font-size: 18px;
+   
+  }
+  .text-list__item{
+    margin-bottom: 17px;
+    padding: 0;
+  }
+  
+  .section__mechanics{
+    
+    margin-bottom: 105px;
+    
+  }
+  
+  .mechanics__left-wrapper{
+    
+    
+    font-size: 18px;  
+    margin-left: 40px;
+  }
+  .mechanics__left-wrapper h1{
+    margin: 0 0 32px 0;
+  }
+  .mechanics__left-wrapper p {
+    margin: 0 0 52px 0;
+    
+  }
+  .mechanics__left-wrapper-buttons{
+    
+  }
+  .mechanics__rigth-wrapper{
+    padding-top: 50px ;
+    
+  }
+  .mechanics__right_wrapper{
+    margin-top: 88px;
+  }
+  
+  
+  .section__selary{
+    
+    margin-bottom: 114px;
+  }
+  .selary__left_wrapper{
+    margin-right: 151px;
+  }
+  .selary__rigth_wrapper h2{
+    margin: 0 0 22px 0;
+    
+    font-size: 40px;
+    line-height: 40px;
+  
+    
+  }
+  .selary__rigth_wrapper p {
+    margin: 0 0 67px 0;
+    
+    font-size: 18px;
+    
+  }
+  .rigth_wrapper__text{
+   
+  }
+  .rigth_wrapper__text h4{
+    margin: 0 16px 0 0;
+    padding: 0;
+    
+   
+    font-size: 42px;
+    
+  }
+  .rigth_wrapper__text p{
+    margin: 0;
+    padding: 0;
+   
+    font-size: 16px; 
+  }
+  
+  
+  .questions__title{
+   
+    font-size: 40px;
+   
+    margin-bottom: 48px;
+  }
+  
+  .section__last_block{
+   
+    width: 1192px;
+    height: 456px;
+    
+    margin-left: calc((100% - 1192px) / 2);
+    margin-bottom: 155px;
+    
+  }
+  .last_block__text{
+   
+    font-size: 40px;
+  }
+  .last_block__text h2{
+    margin-bottom: 64px;
+  }
+}
+
+

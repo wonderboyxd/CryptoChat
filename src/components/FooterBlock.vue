@@ -27,9 +27,9 @@
 
 <style scoped>
 .footer_container{
-    width: 1296px;
+    width: 1190px;
     height: 59px;
-    margin-left: calc((100% - 1296px) / 2);
+    margin-left: calc((100% - 1190px) / 2);
 }
 .elements{
     display: flex;
@@ -78,5 +78,30 @@
 }
 .confidence__right_text p:last-child{
     margin-right: 0;
+}
+
+@media (max-width: 1199px){
+    .footer_container{
+        width: 960px;
+        margin-left: 150px;
+    }
+}
+@media (max-width: 991px){
+    .footer_container{
+        width: 720px;
+        margin-left: 250px;
+    }
+}
+@media (max-width: 767px){
+    .footer_container{
+        width: 540px;
+        margin-left: 350px;
+    }
+}
+@media (max-width: 575px){
+    .footer_container{
+        width: 100%;
+        margin-left: 400px;
+    }
 }
 </style>

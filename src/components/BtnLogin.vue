@@ -39,4 +39,42 @@ img{
     font-family: 'Mulish';
     font-weight: 700;
 }
+@media (max-width:1439px) {
+    button{
+    
+    width: 160px;
+    height: 39px;
+    margin-right: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    
+    }
+    img{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        top: 6px;
+        left: 12px;
+        font-family: 'Mulish';
+        font-weight: 700;
+    }
+}
+@media (max-width:1023px) {
+    button{
+    width: 150px;
+    height: 39px;
+    margin-right: 10px;
+    padding-left: 25px;
+    font-size: 18px;
+    }
+    img{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 6px;
+        left: 8px;
+        font-family: 'Mulish';
+        font-weight: 700;
+    }
+}
 </style>

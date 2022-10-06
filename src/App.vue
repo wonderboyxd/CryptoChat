@@ -3,26 +3,26 @@
     <NavBar />
     <div class="main__section">
       <div class="section__left-wrapper">
-        <h1>Единое <span class="main-color">место общения</span><br>вашего сообщества</h1>
-        <p>Первое децентрализованное решение<br> на мировом рынке</p>
+        <h1>Единое <span class="main-color">место общения </span>вашего сообщества</h1>
+        <p>Первое децентрализованное решение на мировом рынке</p>
         <div class="section__left-wrapper-buttons">
           <BtnOpenchat/>
           <BtnWatchvideo/>
         </div>
       </div>
       <div class="section__right-wrapper">
-        <img src="@/assets/img/Illustration.png" alt="Изображение">
+        <img class="right-wrapper__img" src="@/assets/img/Illustration.png" alt="Изображение">
       </div>
     </div>
+
     <div class="section__private">
       <div class="private__title">
         <h2>Приватность на 100%</h2>
         </div>
       <div class="private__info-block">
-
         <div class="info-block">
           <div class="info-block__img">
-            <img src="@/assets/img/eye.png" alt="Изображение">
+            <img class="block-img" src="@/assets/img/eye.png" alt="Изображение">
           </div>
           <div class="info-block__text">
             <h3>Приватность</h3>
@@ -32,7 +32,7 @@
 
         <div class="info-block">
           <div class="info-block__img">
-            <img src="@/assets/img/document.png" alt="Изображение">
+            <img class="block-img" src="@/assets/img/document.png" alt="Изображение">
           </div>
           <div class="info-block__text">
             <h3>Хранение</h3>
@@ -41,8 +41,8 @@
         </div>
 
         <div class="info-block">
-          <div class="info-block__img">
-            <img src="@/assets/img/connection.png" alt="">
+          <div  class="info-block__img">
+            <img class="block-img" src="@/assets/img/connection.png" alt="">
           </div>
           <div class="info-block__text">
             <h3>DEX-решение</h3>

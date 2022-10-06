@@ -1,20 +1,22 @@
 <template>
-    <div class="accordion__list">
-        <div @click="open" class="accordion">Вопрос 1</div>
-        <div class="panel">
-            <p v-if="show == false ">Ответ на вопрос в «аккардеоне»</p>
-        </div>
-        <div @click="open" class="accordion">Вопрос 2</div>
-        <div class="panel">
-            <p v-if="show == false">Ответ на вопрос в «аккардеоне»</p>
-        </div>
-        <div @click="open" class="accordion">Вопрос 3</div>
-        <div class="panel">
-            <p v-if="show == false">Ответ на вопрос в «аккардеоне»</p>
-        </div>
-        <div @click="open" class="accordion">Вопрос 4</div>
-        <div class="panel">
-            <p v-if="show == false">Ответ на вопрос в «аккардеоне»</p>
+    <div class="container">
+        <div class="accordion__list">
+            <div @click="open" class="accordion">Вопрос 1</div>
+            <div class="panel">
+                <p v-if="show == false ">Ответ на вопрос в «аккардеоне»</p>
+            </div>
+            <div @click="open" class="accordion">Вопрос 2</div>
+            <div class="panel">
+                <p v-if="show == false">Ответ на вопрос в «аккардеоне»</p>
+            </div>
+            <div @click="open" class="accordion">Вопрос 3</div>
+            <div class="panel">
+                <p v-if="show == false">Ответ на вопрос в «аккардеоне»</p>
+            </div>
+            <div @click="open" class="accordion">Вопрос 4</div>
+            <div class="panel">
+                <p v-if="show == false">Ответ на вопрос в «аккардеоне»</p>
+            </div>
         </div>
     </div>
 </template>
@@ -90,4 +92,10 @@ export default {
     
 }
 
+
+@media (max-width: 1199px){
+    .container{
+        width: 1199px;
+    }
+}
 </style>
