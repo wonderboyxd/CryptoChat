@@ -23,4 +23,11 @@ button:hover{
     color: white;
     transform: translateY(-8px);
 }
+
+@media (max-width: 424px) {
+    button{
+        width: 270px;
+        font-size: 15px;
+    }
+}
 </style>

@@ -69,8 +69,8 @@
     <div class="section__mechanics">
       
         <div class="mechanics__left-wrapper">
-          <h2>Игровая механика покупки и<br> продажи смайликов, аватаров<br>и прочих NFT-объектов в чате</h2>
-          <p>Какой-то уточняющий текст про покупку и продажу<br>сайликов/аваторов и прочего-прочего</p>
+          <h2>Игровая механика покупки и продажи смайликов, аватаров<br>и прочих NFT-объектов в чате</h2>
+          <p>Какой-то уточняющий текст про покупку и продажу<br>смайликов/аваторов и прочего-прочего</p>
           <div class="mechanics__left-wrapper-button">
             <BtnJoinchat />
           </div>
@@ -82,11 +82,11 @@
     </div>
     <div class="section__selary">
       <div class="selary__left_wrapper">
-        <img src="@/assets/img/FrameSelary.png" alt="Изображение">
+        <img class="left-wrapper__img" src="@/assets/img/FrameSelary.png" alt="Изображение">
       </div>
       <div class="selary__rigth_wrapper">
-        <h2>Ваш заработок на сборе<br>комиссий с сообщений<br>пользователей!</h2>
-        <p>Какой-то уточняющий текст про заработок<br>от крипточата.</p>
+        <h2>Ваш заработок на сборе комиссий с сообщений<br>пользователей!</h2>
+        <p>Какой-то уточняющий текст про заработок от крипточата.</p>
         <div class="rigth_wrapper__text">
           <h4>300 M+</h4>
           <p>Пользователей Blockchain-<br>технолгии на 2022г</p>
@@ -99,7 +99,7 @@
     <AccordionList/>
     <div class="section__last_block">
       <div class="last_block__text">
-        <h2>Готовы вывести своё<br>сообщество на новый уровень?<br>Начните с <span class="main-color">CryptoChat</span></h2>
+        <h2>Готовы вывести своё сообщество на новый уровень? Начните с <span class="main-color">CryptoChat</span></h2>
         <BtnConnectcryptochat/>
       </div>
     </div>

@@ -25,4 +25,12 @@ button:hover{
     transform: translateY(-8px);
 }
 
+@media (max-width: 424px) {
+    button{
+        width: 340px;
+        border-radius: 50px;
+        margin-bottom: -20px;
+        
+    }
+}
 </style>

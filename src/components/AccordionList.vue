@@ -91,11 +91,29 @@ export default {
     display: block ;
     
 }
-
-
-@media (max-width: 1199px){
+@media (max-width: 1439px) {
+     .container{
+        width: 100%;
+        margin-left: 80px;
+    }
+}
+@media (max-width: 1023px) {
     .container{
-        width: 1199px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 424px){
+    .accordion__list{
+        width: 350px;
+        margin-left: 13px;
+    }
+    .accordion{
+        font-size: 16px;
+    }
+    .panel{
+        font-size: 14px;
     }
 }
 </style>

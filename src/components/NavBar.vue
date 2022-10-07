@@ -128,5 +128,17 @@ export default {
         margin-right: 200px;
     }
 }
+@media (max-width: 767px) {
+    .content{
+        width: 0;
+        margin-bottom: -60px;
+    }
+}
+@media (max-width: 424px){
+    .content{
+        width: 0;
+        margin-bottom: -80px;
+    }
+}
 
 </style>

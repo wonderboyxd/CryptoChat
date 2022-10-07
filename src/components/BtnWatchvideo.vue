@@ -24,5 +24,12 @@ button:hover{
     color: white;
     transform: translateY(-8px);
 }
-
+@media (max-width: 424px) {
+    button{
+        
+        width: 350px;
+        margin-left: -5px;
+        margin-bottom: 50px;
+    }
+}
 </style>
